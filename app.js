@@ -1,3 +1,8 @@
+const GATE_KEY="radar-gate-ok";
+const GATE_HASH="17c7c89093b7e4b3942c317e272399bb7eaa5a63bde081e262d2172525b7de7b";
+async function sha256hex(text){const buf=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(text));return[...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,"0")).join("")}
+function showGate(){const gate=document.getElementById("gate"),form=document.getElementById("gate-form"),input=document.getElementById("gate-key");if(!gate||!form||!input)return;gate.hidden=false;document.body.style.overflow="hidden";input.value="";setTimeout(()=>input.focus(),40);form.addEventListener("submit",async e=>{e.preventDefault();const hex=await sha256hex(input.value);if(hex!==GATE_HASH){form.classList.add("bad");input.value="";setTimeout(()=>form.classList.remove("bad"),180);return}localStorage.setItem(GATE_KEY,"1");gate.hidden=true;document.body.style.overflow="";boot()})}
+function locked(){return!localStorage.getItem(GATE_KEY)}
 const STORE="design-radar-board-v1";
 const ARCHIVE="design-radar-days-v1";
 const state={todayDate:null,date:null,picks:[],board:[],days:{}};
@@ -29,4 +34,4 @@ function hideToast(){els.toast.hidden=true;clearTimeout(toastTimer)}
 els.undo.addEventListener("click",restore);
 document.addEventListener("keydown",e=>{if(e.metaKey||e.ctrlKey||e.altKey)return;const t=e.target;if(t&&(t.tagName==="INPUT"||t.tagName==="TEXTAREA"||t.isContentEditable))return;if(e.key<"0"||e.key>"9")return;const i=e.key==="0"?9:Number(e.key)-1;const pick=(state.picks||[]).filter(p=>p.image)[i];if(pick)toggleKeep(pick.id)});
 async function boot(){loadLocal();const res=await fetch("today.json?t="+Date.now(),{cache:"no-store"});const today=await res.json();state.todayDate=today.date;state.date=today.date;state.picks=(today.picks||[]).filter(p=>p.image);state.days[today.date]=state.picks;saveLocal();render()}
-boot();
+if(locked())showGate();else boot();
