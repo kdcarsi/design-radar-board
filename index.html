@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design Radar Board</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wordmark">RADAR</div>
+    <div class="status">
+      <span id="date-label"></span>
+      <span class="dot" aria-hidden="true"></span>
+      <span id="kept-label">0 kept</span>
+    </div>
+  </header>
+  <nav class="days" id="days" aria-label="Recent days"></nav>
+  <section class="band" aria-labelledby="today-title">
+    <h2 id="today-title">TODAY</h2>
+    <div class="today-grid" id="today"></div>
+    <p class="empty" id="today-empty" hidden>No picks for this day.</p>
+  </section>
+  <section class="band" aria-labelledby="board-title">
+    <h2 id="board-title">BOARD</h2>
+    <div class="board-grid" id="board"></div>
+    <p class="empty" id="board-empty">Nothing kept yet.</p>
+  </section>
+  <div class="toast" id="toast" hidden>
+    <span>Removed.</span>
+    <button type="button" id="undo">Undo</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
