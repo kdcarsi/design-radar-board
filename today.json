@@ -1,4 +1,75 @@
 {
   "date": "2026-08-19",
-  "picks": []
+  "picks": [
+    {
+      "id": "cementblue-iron",
+      "handle": "cementblue",
+      "url": "https://x.com/cementblue/status/2089854816906514661",
+      "post_date": "2026-08-18",
+      "image": "https://pbs.twimg.com/media/HQCn4OGbwAARwlS.jpg"
+    },
+    {
+      "id": "designboom-kayak",
+      "handle": "designboom",
+      "url": "https://x.com/designboom/status/2089608299989938496",
+      "post_date": "2026-08-18",
+      "image": "https://pbs.twimg.com/media/HP_HrBubEAAf74p.jpg"
+    },
+    {
+      "id": "tbi-kiku",
+      "handle": "TweetsByTBI",
+      "url": "https://x.com/TweetsByTBI/status/2090061289859211358",
+      "post_date": "2026-08-19",
+      "image": "https://pbs.twimg.com/media/HQFjqJJaIAAs415.jpg"
+    },
+    {
+      "id": "cementblue-coffee",
+      "handle": "cementblue",
+      "url": "https://x.com/cementblue/status/2088060882362523898",
+      "post_date": "2026-08-14",
+      "image": "https://pbs.twimg.com/media/HPpH3_taUAACLCc.jpg"
+    },
+    {
+      "id": "callig-uncial",
+      "handle": "calligperson",
+      "url": "https://x.com/calligperson/status/2077885463428297163",
+      "post_date": "2026-07-16",
+      "image": "https://pbs.twimg.com/media/HNYhsnwXMAAZhtQ.jpg"
+    },
+    {
+      "id": "grillitype-cinetype",
+      "handle": "grillitype",
+      "url": "https://x.com/grillitype/status/2089710736494744008",
+      "post_date": "2026-08-18",
+      "image": "https://pbs.twimg.com/media/HQAkYV9XsAAi0G7.jpg"
+    },
+    {
+      "id": "dezeen-spruce",
+      "handle": "dezeen",
+      "url": "https://x.com/dezeen/status/2089900220758790495",
+      "post_date": "2026-08-19",
+      "image": "https://pbs.twimg.com/media/HQDRHvnWIAEEnMV.jpg"
+    },
+    {
+      "id": "grillitype-bakery",
+      "handle": "grillitype",
+      "url": "https://x.com/grillitype/status/2066887731528007844",
+      "post_date": "2026-06-16",
+      "image": "https://pbs.twimg.com/media/HK8PKGUWwAABE6r.jpg"
+    },
+    {
+      "id": "merz-sushi",
+      "handle": "Merzmensch",
+      "url": "https://x.com/Merzmensch/status/2090135138520711220",
+      "post_date": "2026-08-19",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2090134930978230272/img/bwPft9fojmg_9k7k.jpg"
+    },
+    {
+      "id": "typelettering-lax",
+      "handle": "TypeLettering",
+      "url": "https://x.com/TypeLettering/status/2083374094284624249",
+      "post_date": "2026-08-01",
+      "image": "https://pbs.twimg.com/media/HOmhsnVWgAAD55x.jpg"
+    }
+  ]
 }
