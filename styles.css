@@ -27,9 +27,19 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 a { color: inherit; text-decoration: none; }
 
 .top { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; }
-.wordmark { font-size: var(--title); font-weight: 500; letter-spacing: 0.34em; }
+.tabs { display: flex; gap: 22px; }
+.tabs button {
+  font-size: var(--title);
+  font-weight: 500;
+  letter-spacing: 0.34em;
+  color: var(--ink-mute);
+  padding: 0 0 6px;
+  border-bottom: 1px solid transparent;
+}
+.tabs button.on { color: var(--ink); border-bottom-color: var(--accent); }
 .status { display: flex; align-items: center; gap: 10px; font-size: var(--whisper); letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-dim); }
 .status .dot { width: 2px; height: 2px; border-radius: 50%; background: var(--ink-mute); }
+.status button { letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-dim); }
 .days { display: flex; gap: 22px; margin: 22px 0 40px; }
 .days button { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; padding: 0 0 6px; font-size: var(--whisper); letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-mute); border-bottom: 1px solid transparent; }
 .days button.has { color: var(--ink-dim); }
