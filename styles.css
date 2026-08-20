@@ -34,16 +34,16 @@ a { color: inherit; text-decoration: none; }
   gap: 16px;
   width: 100%;
 }
-.tabs button {
+.tabs > button {
   font-size: var(--title);
   font-weight: 500;
   letter-spacing: 0.16em;
-  color: var(--ink-mute);
+  color: var(--ink);
   padding: 0 0 6px;
   border-bottom: 1px solid transparent;
   white-space: nowrap;
 }
-.tabs button.on { color: var(--ink); border-bottom-color: var(--accent); }
+.tabs > button.on { border-bottom-color: var(--accent); }
 .status {
   display: flex;
   align-items: center;
@@ -112,7 +112,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 1100px) {
   body { padding: 22px 20px 72px; }
   .tabs { gap: 12px; }
-  .tabs button { letter-spacing: 0.08em; }
+  .tabs > button { letter-spacing: 0.08em; }
   .status { letter-spacing: 0.08em; }
   .today-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .whisper { opacity: 1; }
