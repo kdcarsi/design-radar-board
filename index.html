@@ -11,7 +11,8 @@
     <div class="gate-inner">
       <div class="gate-mark">RADAR</div>
       <form id="gate-form" class="gate-form" autocomplete="off">
-        <input id="gate-key" type="password" name="key" spellcheck="false" autocapitalize="off" aria-label="Key">
+        <input id="gate-key" type="password" name="key" spellcheck="false" autocapitalize="off" enterkeyhint="go" aria-label="Key">
+        <button type="submit" class="gate-go">ENTER</button>
       </form>
     </div>
   </div>
@@ -42,7 +43,7 @@
     </section>
   </div>
   <div class="toast" id="toast" hidden>
-    <span>Removed.</span>
+    <span id="toast-msg">Removed.</span>
     <button type="button" id="undo">Undo</button>
   </div>
   <script src="app.js"></script>
