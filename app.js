@@ -26,6 +26,7 @@ const els = {
   board: document.getElementById("board"),
   boardEmpty: document.getElementById("board-empty"),
   toast: document.getElementById("toast"),
+  toastMsg: document.getElementById("toast-msg"),
   undo: document.getElementById("undo"),
 };
 
@@ -270,7 +271,7 @@ function toggleKeep(id) {
     });
     pulseId = id;
     lastDropped = null;
-    hideToast();
+    showToast("Added.");
     window.setTimeout(() => {
       if (pulseId === id) {
         pulseId = null;
@@ -289,7 +290,7 @@ function dropItem(id) {
   state.board.splice(idx, 1);
   saveLocal();
   render();
-  showToast();
+  showToast("Removed.", true);
 }
 
 function restore() {
@@ -301,10 +302,12 @@ function restore() {
   render();
 }
 
-function showToast() {
+function showToast(message, withUndo) {
+  if (els.toastMsg) els.toastMsg.textContent = message || "Removed.";
+  if (els.undo) els.undo.hidden = !withUndo;
   els.toast.hidden = false;
   window.clearTimeout(toastTimer);
-  toastTimer = window.setTimeout(hideToast, 3000);
+  toastTimer = window.setTimeout(hideToast, withUndo ? 3000 : 1600);
 }
 
 function hideToast() {
