@@ -1,5 +1,6 @@
+
 const GATE_KEY = "radar-gate-ok";
-const GATE_HASH = "17c7c89093b7e4b3942c317e272399bb7eaa5a63bde081e262d2172525b7de7b";
+const GATE_HASH = "d919a100ce6b45524d415d52d088d5817587c6dd8c3691b03b8063c44d043523";
 const STORE = "design-radar-board-v1";
 const ARCHIVE = "design-radar-days-v1";
 
@@ -172,7 +173,7 @@ function renderToday() {
   const kept = keptIds();
   const picks = (state.picks || []).filter((p) => p.image);
   els.today.innerHTML = "";
-  els.todayTitle.textContent = state.date === state.todayDate ? "TODAY" : formatHeaderDate(state.date).slice(0, 6).trim();
+  els.todayTitle.textContent = state.date === state.todayDate ? "Today\u2019s Top 10" : "Top 10";
   if (!picks.length) {
     els.today.hidden = true;
     els.todayEmpty.hidden = false;
