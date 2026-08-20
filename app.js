@@ -18,7 +18,6 @@ const els = {
   tabProfile: document.getElementById("tab-profile"),
   radarView: document.getElementById("radar-view"),
   profileView: document.getElementById("profile-view"),
-  dateLabel: document.getElementById("date-label"),
   keptLabel: document.getElementById("kept-label"),
   days: document.getElementById("days"),
   todayTitle: document.getElementById("today-title"),
@@ -150,9 +149,8 @@ function setTab(tab) {
 }
 
 function renderHeader() {
-  els.dateLabel.textContent = formatHeaderDate(state.todayDate || state.date);
   const n = state.board.length;
-  els.keptLabel.textContent = n === 1 ? "1 kept" : `${n} kept`;
+  if (els.keptLabel) els.keptLabel.textContent = n === 1 ? "1 kept" : `${n} kept`;
 }
 
 function renderDays() {
