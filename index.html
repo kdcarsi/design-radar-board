@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Design Radar Board</title>
-  <link rel="stylesheet" href="styles.css?v=6">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
   <div id="gate" class="gate" hidden>
@@ -19,7 +19,7 @@
   <header class="top">
     <nav class="tabs" aria-label="Views">
       <button type="button" id="tab-radar" class="on">RADAR</button>
-      <button type="button" id="tab-profile">PROFILE</button>
+      <button type="button" id="tab-profile">MOODBOARD</button>
     </nav>
     <div class="status">
       <span id="date-label"></span>
@@ -36,7 +36,8 @@
     </section>
   </div>
   <div id="profile-view" hidden>
-    <section class="band">
+    <section class="band" aria-labelledby="board-title">
+      <h2 id="board-title">MOODBOARD</h2>
       <div class="board-grid" id="board"></div>
       <p class="empty" id="board-empty">Nothing kept yet.</p>
     </section>
@@ -46,6 +47,6 @@
     <span id="toast-msg">Removed.</span>
     <button type="button" id="undo">Undo</button>
   </div>
-  <script src="app.js?v=6"></script>
+  <script src="app.js?v=7"></script>
 </body>
 </html>
