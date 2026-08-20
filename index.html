@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NAT-KEM RADAR</title>
-  <link rel="stylesheet" href="styles.css?v=8">
+  <link rel="stylesheet" href="styles.css?v=9">
 </head>
 <body>
   <div id="gate" class="gate" hidden>
@@ -18,19 +18,19 @@
   </div>
   <header class="top">
     <nav class="tabs" aria-label="Views">
-      <button type="button" id="tab-profile">MOODBOARD</button>
       <button type="button" id="tab-radar" class="on">NAT-KEM RADAR</button>
+      <div class="status">
+        <span id="date-label"></span>
+        <span class="dot" aria-hidden="true"></span>
+        <button type="button" id="kept-label">0 kept</button>
+      </div>
+      <button type="button" id="tab-profile">MOODBOARD</button>
     </nav>
-    <div class="status">
-      <span id="date-label"></span>
-      <span class="dot" aria-hidden="true"></span>
-      <button type="button" id="kept-label">0 kept</button>
-    </div>
   </header>
   <div id="radar-view">
     <nav class="days" id="days" aria-label="Recent days"></nav>
     <section class="band" aria-labelledby="today-title">
-      <h2 id="today-title">TODAY</h2>
+      <h2 id="today-title">Today's Top 10</h2>
       <div class="today-grid" id="today"></div>
       <p class="empty" id="today-empty" hidden>No picks for this day.</p>
     </section>
@@ -47,6 +47,6 @@
     <span id="toast-msg">Removed.</span>
     <button type="button" id="undo">Undo</button>
   </div>
-  <script src="app.js?v=8"></script>
+  <script src="app.js?v=9"></script>
 </body>
 </html>
