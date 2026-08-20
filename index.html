@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Design Radar Board</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
   <div id="gate" class="gate" hidden>
@@ -36,16 +36,16 @@
     </section>
   </div>
   <div id="profile-view" hidden>
-    <section class="band" aria-labelledby="board-title">
-      <h2 id="board-title">PROFILE</h2>
+    <section class="band">
       <div class="board-grid" id="board"></div>
       <p class="empty" id="board-empty">Nothing kept yet.</p>
     </section>
   </div>
+  <div class="pop" id="pop" hidden>ADDED</div>
   <div class="toast" id="toast" hidden>
     <span id="toast-msg">Removed.</span>
     <button type="button" id="undo">Undo</button>
   </div>
-  <script src="app.js"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
