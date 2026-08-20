@@ -1,75 +1,75 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "picks": [
     {
-      "id": "cementblue-iron",
-      "handle": "cementblue",
-      "url": "https://x.com/cementblue/status/2089854816906514661",
-      "post_date": "2026-08-18",
-      "image": "https://pbs.twimg.com/media/HQCn4OGbwAARwlS.jpg"
-    },
-    {
-      "id": "designboom-kayak",
-      "handle": "designboom",
-      "url": "https://x.com/designboom/status/2089608299989938496",
-      "post_date": "2026-08-18",
-      "image": "https://pbs.twimg.com/media/HP_HrBubEAAf74p.jpg"
-    },
-    {
-      "id": "tbi-kiku",
-      "handle": "TweetsByTBI",
-      "url": "https://x.com/TweetsByTBI/status/2090061289859211358",
+      "id": "creativeboom-soldiers",
+      "handle": "creativeboom",
+      "url": "https://x.com/creativeboom/status/2090107284567261420",
       "post_date": "2026-08-19",
-      "image": "https://pbs.twimg.com/media/HQFjqJJaIAAs415.jpg"
+      "image": "https://pbs.twimg.com/media/HQGNfvEXcAE2o76.jpg"
     },
     {
-      "id": "cementblue-coffee",
-      "handle": "cementblue",
-      "url": "https://x.com/cementblue/status/2088060882362523898",
-      "post_date": "2026-08-14",
-      "image": "https://pbs.twimg.com/media/HPpH3_taUAACLCc.jpg"
+      "id": "tanner-kitchen",
+      "handle": "TannerBuilds",
+      "url": "https://x.com/TannerBuilds/status/2090100908566708658",
+      "post_date": "2026-08-19",
+      "image": "https://pbs.twimg.com/media/HQGHsvbW0AAxCVZ.jpg"
     },
     {
-      "id": "callig-uncial",
-      "handle": "calligperson",
-      "url": "https://x.com/calligperson/status/2077885463428297163",
-      "post_date": "2026-07-16",
-      "image": "https://pbs.twimg.com/media/HNYhsnwXMAAZhtQ.jpg"
-    },
-    {
-      "id": "grillitype-cinetype",
-      "handle": "grillitype",
-      "url": "https://x.com/grillitype/status/2089710736494744008",
+      "id": "vanschneider-993",
+      "handle": "vanschneider",
+      "url": "https://x.com/vanschneider/status/2089757076956360789",
       "post_date": "2026-08-18",
-      "image": "https://pbs.twimg.com/media/HQAkYV9XsAAi0G7.jpg"
+      "image": "https://pbs.twimg.com/media/HQBOktAXUAATh-7.jpg"
     },
     {
-      "id": "dezeen-spruce",
-      "handle": "dezeen",
-      "url": "https://x.com/dezeen/status/2089900220758790495",
+      "id": "rauno-system",
+      "handle": "raunofreiberg",
+      "url": "https://x.com/raunofreiberg/status/2069121216569360648",
+      "post_date": "2026-06-22",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2069121143026708480/img/-uXKngMi_BNxlvCH.jpg"
+    },
+    {
+      "id": "archdaily-house",
+      "handle": "ArchDaily",
+      "url": "https://x.com/ArchDaily/status/2089985823823503373",
       "post_date": "2026-08-19",
-      "image": "https://pbs.twimg.com/media/HQDRHvnWIAEEnMV.jpg"
+      "image": "https://pbs.twimg.com/media/HQEfBhfaUAAFQUB.jpg"
     },
     {
-      "id": "grillitype-bakery",
-      "handle": "grillitype",
-      "url": "https://x.com/grillitype/status/2066887731528007844",
-      "post_date": "2026-06-16",
-      "image": "https://pbs.twimg.com/media/HK8PKGUWwAABE6r.jpg"
-    },
-    {
-      "id": "merz-sushi",
-      "handle": "Merzmensch",
-      "url": "https://x.com/Merzmensch/status/2090135138520711220",
+      "id": "yanko-rosemary",
+      "handle": "yankodesign",
+      "url": "https://x.com/yankodesign/status/2090167995930964148",
       "post_date": "2026-08-19",
-      "image": "https://pbs.twimg.com/amplify_video_thumb/2090134930978230272/img/bwPft9fojmg_9k7k.jpg"
+      "image": "https://pbs.twimg.com/media/HQHEt2hasAA4Z_9.jpg"
     },
     {
-      "id": "typelettering-lax",
-      "handle": "TypeLettering",
-      "url": "https://x.com/TypeLettering/status/2083374094284624249",
-      "post_date": "2026-08-01",
-      "image": "https://pbs.twimg.com/media/HOmhsnVWgAAD55x.jpg"
+      "id": "rauno-36",
+      "handle": "raunofreiberg",
+      "url": "https://x.com/raunofreiberg/status/2074832501520887808",
+      "post_date": "2026-07-08",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2074832419849400320/img/YSfAMe9DeowiXCmn.jpg"
+    },
+    {
+      "id": "mery-switcher",
+      "handle": "merycodes",
+      "url": "https://x.com/merycodes/status/2082923377774264389",
+      "post_date": "2026-07-30",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2082921243469033472/img/nWELSGptfYe1CqD7.jpg"
+    },
+    {
+      "id": "dribbble-hawkers",
+      "handle": "dribbble",
+      "url": "https://x.com/dribbble/status/2090184350855733625",
+      "post_date": "2026-08-19",
+      "image": "https://pbs.twimg.com/media/HQHTlkKXsAAUaBo.jpg"
+    },
+    {
+      "id": "lochie-button",
+      "handle": "lochieaxon",
+      "url": "https://x.com/lochieaxon/status/2087200337790956027",
+      "post_date": "2026-08-11",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2087198407991685120/img/oK1e10U2IXiRnj7N.jpg"
     }
   ]
 }
