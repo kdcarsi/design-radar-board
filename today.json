@@ -16,18 +16,18 @@
       "image": "https://pbs.twimg.com/media/HQGHsvbW0AAxCVZ.jpg"
     },
     {
+      "id": "core77-clock",
+      "handle": "core77",
+      "url": "https://x.com/core77/status/2089733982246387965",
+      "post_date": "2026-08-18",
+      "image": "https://pbs.twimg.com/media/HQA5-38aEAA98sK.jpg"
+    },
+    {
       "id": "vanschneider-993",
       "handle": "vanschneider",
       "url": "https://x.com/vanschneider/status/2089757076956360789",
       "post_date": "2026-08-18",
       "image": "https://pbs.twimg.com/media/HQBOktAXUAATh-7.jpg"
-    },
-    {
-      "id": "rauno-system",
-      "handle": "raunofreiberg",
-      "url": "https://x.com/raunofreiberg/status/2069121216569360648",
-      "post_date": "2026-06-22",
-      "image": "https://pbs.twimg.com/amplify_video_thumb/2069121143026708480/img/-uXKngMi_BNxlvCH.jpg"
     },
     {
       "id": "archdaily-house",
@@ -44,18 +44,11 @@
       "image": "https://pbs.twimg.com/media/HQHEt2hasAA4Z_9.jpg"
     },
     {
-      "id": "rauno-36",
-      "handle": "raunofreiberg",
-      "url": "https://x.com/raunofreiberg/status/2074832501520887808",
-      "post_date": "2026-07-08",
-      "image": "https://pbs.twimg.com/amplify_video_thumb/2074832419849400320/img/YSfAMe9DeowiXCmn.jpg"
-    },
-    {
-      "id": "mery-switcher",
-      "handle": "merycodes",
-      "url": "https://x.com/merycodes/status/2082923377774264389",
-      "post_date": "2026-07-30",
-      "image": "https://pbs.twimg.com/amplify_video_thumb/2082921243469033472/img/nWELSGptfYe1CqD7.jpg"
+      "id": "logoarchive-ford",
+      "handle": "LogoArchive",
+      "url": "https://x.com/LogoArchive/status/2089750657532080538",
+      "post_date": "2026-08-18",
+      "image": "https://pbs.twimg.com/media/HQBJJYgWAAAg9M1.jpg"
     },
     {
       "id": "dribbble-hawkers",
@@ -65,11 +58,18 @@
       "image": "https://pbs.twimg.com/media/HQHTlkKXsAAUaBo.jpg"
     },
     {
-      "id": "lochie-button",
-      "handle": "lochieaxon",
-      "url": "https://x.com/lochieaxon/status/2087200337790956027",
-      "post_date": "2026-08-11",
-      "image": "https://pbs.twimg.com/amplify_video_thumb/2087198407991685120/img/oK1e10U2IXiRnj7N.jpg"
+      "id": "29letters-idris",
+      "handle": "29Letters",
+      "url": "https://x.com/29Letters/status/1991481437019861208",
+      "post_date": "2025-11-20",
+      "image": "https://pbs.twimg.com/media/G6Mpz5YX0AAAKBA.jpg"
+    },
+    {
+      "id": "beeple-million",
+      "handle": "beeple",
+      "url": "https://x.com/beeple/status/2089924744329957658",
+      "post_date": "2026-08-19",
+      "image": "https://pbs.twimg.com/media/HQDnaS2WoAAFrkp.jpg"
     }
   ]
 }
