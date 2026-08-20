@@ -259,6 +259,7 @@ function toggleKeep(id) {
     lastDropped = state.board[idx];
     state.board.splice(idx, 1);
     pulseId = null;
+    showPop("REMOVED");
   } else {
     const pick = findPick(id);
     if (!pick || !pick.image) return;
@@ -292,6 +293,7 @@ function dropItem(id) {
   state.board.splice(idx, 1);
   saveLocal();
   render();
+  showPop("REMOVED");
   showToast("Removed.", true);
 }
 
