@@ -28,11 +28,13 @@ const els = {
   toast: document.getElementById("toast"),
   toastMsg: document.getElementById("toast-msg"),
   undo: document.getElementById("undo"),
+  pop: document.getElementById("pop"),
 };
 
 const MONTHS = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
 const WEEKDAYS = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
 let toastTimer = 0;
+let popTimer = 0;
 let pulseId = null;
 let lastDropped = null;
 
@@ -271,7 +273,7 @@ function toggleKeep(id) {
     });
     pulseId = id;
     lastDropped = null;
-    showToast("Added.");
+    showPop("ADDED");
     window.setTimeout(() => {
       if (pulseId === id) {
         pulseId = null;
@@ -300,6 +302,14 @@ function restore() {
   saveLocal();
   hideToast();
   render();
+}
+
+function showPop(text) {
+  if (!els.pop) return;
+  els.pop.textContent = text || "ADDED";
+  els.pop.hidden = false;
+  window.clearTimeout(popTimer);
+  popTimer = window.setTimeout(() => { els.pop.hidden = true; }, 1400);
 }
 
 function showToast(message, withUndo) {
