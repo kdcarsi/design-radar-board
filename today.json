@@ -1,75 +1,68 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "picks": [
     {
-      "id": "creativeboom-soldiers",
-      "handle": "creativeboom",
-      "url": "https://x.com/creativeboom/status/2090107284567261420",
+      "id": "architizer-rhoes",
+      "handle": "Architizer",
+      "url": "https://x.com/Architizer/status/2090408521841950770",
+      "post_date": "2026-08-20",
+      "image": "https://pbs.twimg.com/media/HQKfdX2WkAASq3o.jpg"
+    },
+    {
+      "id": "playtype-shield",
+      "handle": "playtype",
+      "url": "https://x.com/playtype/status/2082808277977481218",
+      "post_date": "2026-07-30",
+      "image": "https://pbs.twimg.com/tweet_video_thumb/HOee0lIXkAAah3u.jpg"
+    },
+    {
+      "id": "casa-tashkent",
+      "handle": "CasaBRUTUS",
+      "url": "https://x.com/CasaBRUTUS/status/2090591017590218791",
+      "post_date": "2026-08-21",
+      "image": "https://pbs.twimg.com/media/HQNFc5dWEAA4I_j.jpg"
+    },
+    {
+      "id": "fofr-blackboard",
+      "handle": "fofrAI",
+      "url": "https://x.com/fofrAI/status/2079159804824596791",
+      "post_date": "2026-07-20",
+      "image": "https://pbs.twimg.com/media/HNqoYD1WcAAwuZG.jpg"
+    },
+    {
+      "id": "malika-fans",
+      "handle": "malikafavre",
+      "url": "https://x.com/malikafavre/status/2090068459354829167",
       "post_date": "2026-08-19",
-      "image": "https://pbs.twimg.com/media/HQGNfvEXcAE2o76.jpg"
+      "image": "https://pbs.twimg.com/media/HQFqKyXWkAA4BbC.jpg"
     },
     {
-      "id": "tanner-kitchen",
-      "handle": "TannerBuilds",
-      "url": "https://x.com/TannerBuilds/status/2090100908566708658",
+      "id": "ilt-roma",
+      "handle": "ilovetypography",
+      "url": "https://x.com/ilovetypography/status/2089889752296354232",
       "post_date": "2026-08-19",
-      "image": "https://pbs.twimg.com/media/HQGHsvbW0AAxCVZ.jpg"
+      "image": "https://pbs.twimg.com/media/HQDHhIfaIAAGhX-.png"
     },
     {
-      "id": "core77-clock",
-      "handle": "core77",
-      "url": "https://x.com/core77/status/2089733982246387965",
-      "post_date": "2026-08-18",
-      "image": "https://pbs.twimg.com/media/HQA5-38aEAA98sK.jpg"
+      "id": "hellorob-rocket",
+      "handle": "hellorob",
+      "url": "https://x.com/hellorob/status/2071027310644609086",
+      "post_date": "2026-06-28",
+      "image": "https://pbs.twimg.com/media/HL26nKQbQAEW316.jpg"
     },
     {
-      "id": "vanschneider-993",
-      "handle": "vanschneider",
-      "url": "https://x.com/vanschneider/status/2089757076956360789",
-      "post_date": "2026-08-18",
-      "image": "https://pbs.twimg.com/media/HQBOktAXUAATh-7.jpg"
+      "id": "ryonon-collage",
+      "handle": "ryonon",
+      "url": "https://x.com/ryonon/status/2083830693944270977",
+      "post_date": "2026-08-02",
+      "image": "https://pbs.twimg.com/media/HOtA-I6bgAAk1Yh.jpg"
     },
     {
-      "id": "archdaily-house",
-      "handle": "ArchDaily",
-      "url": "https://x.com/ArchDaily/status/2089985823823503373",
-      "post_date": "2026-08-19",
-      "image": "https://pbs.twimg.com/media/HQEfBhfaUAAFQUB.jpg"
-    },
-    {
-      "id": "yanko-rosemary",
-      "handle": "yankodesign",
-      "url": "https://x.com/yankodesign/status/2090167995930964148",
-      "post_date": "2026-08-19",
-      "image": "https://pbs.twimg.com/media/HQHEt2hasAA4Z_9.jpg"
-    },
-    {
-      "id": "logoarchive-ford",
-      "handle": "LogoArchive",
-      "url": "https://x.com/LogoArchive/status/2089750657532080538",
-      "post_date": "2026-08-18",
-      "image": "https://pbs.twimg.com/media/HQBJJYgWAAAg9M1.jpg"
-    },
-    {
-      "id": "dribbble-hawkers",
-      "handle": "dribbble",
-      "url": "https://x.com/dribbble/status/2090184350855733625",
-      "post_date": "2026-08-19",
-      "image": "https://pbs.twimg.com/media/HQHTlkKXsAAUaBo.jpg"
-    },
-    {
-      "id": "29letters-idris",
-      "handle": "29Letters",
-      "url": "https://x.com/29Letters/status/1991481437019861208",
-      "post_date": "2025-11-20",
-      "image": "https://pbs.twimg.com/media/G6Mpz5YX0AAAKBA.jpg"
-    },
-    {
-      "id": "beeple-million",
-      "handle": "beeple",
-      "url": "https://x.com/beeple/status/2089924744329957658",
-      "post_date": "2026-08-19",
-      "image": "https://pbs.twimg.com/media/HQDnaS2WoAAFrkp.jpg"
+      "id": "rajileema-vibe",
+      "handle": "Rajileema",
+      "url": "https://x.com/Rajileema/status/2090483047552442856",
+      "post_date": "2026-08-20",
+      "image": "https://pbs.twimg.com/media/HQLfXQjWEAAu8PQ.jpg"
     }
   ]
 }
