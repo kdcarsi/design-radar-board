@@ -1,68 +1,68 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "picks": [
     {
-      "id": "architizer-rhoes",
-      "handle": "Architizer",
-      "url": "https://x.com/Architizer/status/2090408521841950770",
-      "post_date": "2026-08-20",
-      "image": "https://pbs.twimg.com/media/HQKfdX2WkAASq3o.jpg"
+      "id": "contemporist-icehut",
+      "handle": "CONTEMPORIST",
+      "url": "https://x.com/CONTEMPORIST/status/2087677429385199627",
+      "post_date": "2026-08-12",
+      "image": "https://pbs.twimg.com/media/HPjriyYbEAEgpyv.jpg"
     },
     {
-      "id": "playtype-shield",
-      "handle": "playtype",
-      "url": "https://x.com/playtype/status/2082808277977481218",
-      "post_date": "2026-07-30",
-      "image": "https://pbs.twimg.com/tweet_video_thumb/HOee0lIXkAAah3u.jpg"
-    },
-    {
-      "id": "casa-tashkent",
-      "handle": "CasaBRUTUS",
-      "url": "https://x.com/CasaBRUTUS/status/2090591017590218791",
+      "id": "contemporist-byron",
+      "handle": "CONTEMPORIST",
+      "url": "https://x.com/CONTEMPORIST/status/2090926353164144713",
       "post_date": "2026-08-21",
-      "image": "https://pbs.twimg.com/media/HQNFc5dWEAA4I_j.jpg"
+      "image": "https://pbs.twimg.com/media/HQR2ax-bQAAF88x.jpg"
     },
     {
-      "id": "fofr-blackboard",
-      "handle": "fofrAI",
-      "url": "https://x.com/fofrAI/status/2079159804824596791",
-      "post_date": "2026-07-20",
-      "image": "https://pbs.twimg.com/media/HNqoYD1WcAAwuZG.jpg"
-    },
-    {
-      "id": "malika-fans",
-      "handle": "malikafavre",
-      "url": "https://x.com/malikafavre/status/2090068459354829167",
-      "post_date": "2026-08-19",
-      "image": "https://pbs.twimg.com/media/HQFqKyXWkAA4BbC.jpg"
-    },
-    {
-      "id": "ilt-roma",
-      "handle": "ilovetypography",
-      "url": "https://x.com/ilovetypography/status/2089889752296354232",
-      "post_date": "2026-08-19",
-      "image": "https://pbs.twimg.com/media/HQDHhIfaIAAGhX-.png"
-    },
-    {
-      "id": "hellorob-rocket",
-      "handle": "hellorob",
-      "url": "https://x.com/hellorob/status/2071027310644609086",
-      "post_date": "2026-06-28",
-      "image": "https://pbs.twimg.com/media/HL26nKQbQAEW316.jpg"
-    },
-    {
-      "id": "ryonon-collage",
-      "handle": "ryonon",
-      "url": "https://x.com/ryonon/status/2083830693944270977",
-      "post_date": "2026-08-02",
-      "image": "https://pbs.twimg.com/media/HOtA-I6bgAAk1Yh.jpg"
-    },
-    {
-      "id": "rajileema-vibe",
-      "handle": "Rajileema",
-      "url": "https://x.com/Rajileema/status/2090483047552442856",
+      "id": "potter-kiln",
+      "handle": "potter_y",
+      "url": "https://x.com/potter_y/status/2090422569728188868",
       "post_date": "2026-08-20",
-      "image": "https://pbs.twimg.com/media/HQLfXQjWEAAu8PQ.jpg"
+      "image": "https://pbs.twimg.com/media/HQKsPdOakAAVJbS.jpg"
+    },
+    {
+      "id": "ignant-lee",
+      "handle": "ignantmag",
+      "url": "https://x.com/ignantmag/status/2034262862495900089",
+      "post_date": "2026-03-18",
+      "image": "https://pbs.twimg.com/media/HDsnRm8X0AAwGF-.jpg"
+    },
+    {
+      "id": "muji-helmet",
+      "handle": "muji_net",
+      "url": "https://x.com/muji_net/status/2091012561571652023",
+      "post_date": "2026-08-22",
+      "image": "https://pbs.twimg.com/media/HQTE12jaAAAx7KI.jpg"
+    },
+    {
+      "id": "brutus-baskets",
+      "handle": "BRUTUS_mag",
+      "url": "https://x.com/BRUTUS_mag/status/2090757069280260196",
+      "post_date": "2026-08-21",
+      "image": "https://pbs.twimg.com/media/HQPceUfWsAAuvft.jpg"
+    },
+    {
+      "id": "gmunk-signal",
+      "handle": "gmunk",
+      "url": "https://x.com/gmunk/status/2090479273849356716",
+      "post_date": "2026-08-20",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2090478827898306560/img/jPl3KohfivD01QLR.jpg"
+    },
+    {
+      "id": "pen-lights",
+      "handle": "Pen_magazine",
+      "url": "https://x.com/Pen_magazine/status/2091003676857147430",
+      "post_date": "2026-08-22",
+      "image": "https://pbs.twimg.com/media/HP-JH-zaMAAjV5Q.jpg"
+    },
+    {
+      "id": "karimoku-orgatec",
+      "handle": "karimoku",
+      "url": "https://x.com/karimoku/status/2062429271717707970",
+      "post_date": "2026-06-04",
+      "image": "https://pbs.twimg.com/media/HJ84DdmaYAAIUSf.jpg"
     }
   ]
 }
